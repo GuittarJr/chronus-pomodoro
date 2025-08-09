@@ -1,5 +1,8 @@
-import "./App.css";
 import Heading from "./components/Heading";
+
+import "./styles/global.css";
+import "./styles/themes.css";
+
 function App() {
   return (
     <>
