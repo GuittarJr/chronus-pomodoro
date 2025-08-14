@@ -1,18 +1,19 @@
-import Title from "./components/Title/Title";
+import Heading from "./components/Heading/Heading";
+import Container from "./components/Container/Container";
+import { Timer } from "lucide-react";
 import "./styles/global.css";
 import "./styles/themes.css";
 
 function App() {
   return (
     <>
-      {/* <Heading>
-        Olá mundo!
-        <button>
-          <Timer />
-        </button>
-      </Heading> */}
-      <Title title="Chronos Pomodoro" />
-      <p>Me livrei da maldição e vou aprender finalmente React!</p>
+      <Container>
+        <Heading title="Chronos Pomodoro">
+          <button>
+            <Timer />
+          </button>
+        </Heading>
+      </Container>
     </>
   );
 }
